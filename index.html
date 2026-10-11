@@ -359,7 +359,7 @@
     }
     .tools-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(min(520px, 100%), 1fr));
       gap: 18px;
     }
     .tool-card {
@@ -765,6 +765,22 @@ const TOOLS = [
     url: "https://github.com/Panniantong/agent-reach",
     bg: "rgba(18,242,128,0.15)",
     icon: "👁️",
+  },
+  {
+    name: "Railway",
+    sub: "Donde se monta tu n8n",
+    cta: "Abrir",
+    url: "https://railway.com",
+    bg: "rgba(124,58,237,0.12)",
+    icon: "🚂",
+  },
+  {
+    name: "Google Cloud Console",
+    sub: "Cuenta de servicio para Drive y Sheets",
+    cta: "Abrir",
+    url: "https://console.cloud.google.com",
+    bg: "rgba(66,133,244,0.14)",
+    icon: "☁️",
   },
   // Agrega más herramientas aquí copiando el objeto de arriba
 ];
